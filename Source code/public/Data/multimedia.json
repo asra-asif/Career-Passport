@@ -1,0 +1,171 @@
+[
+  {
+    "id": "m001",
+    "title": "How to choose a major",
+    "embed": "https://www.youtube.com/watch?v=IlU-zDU6aQ0",
+    "category": "motivation",
+    "description": "Expert tips on choosing your major.",
+    "userTypes": [
+      "student",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "m002",
+    "title": "Internships 101",
+    "embed": "https://www.youtube.com/watch?v=6KrBouEIoT0",
+    "category": "internships",
+    "description": "How to secure internships and make the most of them.",
+    "userTypes": [
+      "student",
+      "professional"
+    ]
+  },
+  {
+    "id": "m003",
+    "title": "Effective Study Techniques",
+    "embed": "https://www.youtube.com/watch?v=vCi54l6o8ME",
+    "category": "study",
+    "description": "Learn techniques to improve your learning and retention.",
+    "userTypes": [
+      "student",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "m004",
+    "title": "From Hype to Reality",
+    "embed": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    "category": "Technology & Society",
+    "description": "This episode unpacks how artificial intelligence is quietly transforming daily life—from smart assistants and predictive algorithms to personalized experiences and ethical debates. Join us as we explore where AI is heading, what's real, and what's just hype.",
+    "userTypes": [
+      "professional"
+    ]
+  },
+  {
+    "id": "m005",
+    "title": "Time Management Tips",
+    "embed": "https://www.youtube.com/watch?v=oTugjssqOT0",
+    "category": "productivity",
+    "description": "Boost your efficiency with simple time management strategies.",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m006",
+    "title": "Networking Skills",
+    "embed": "https://www.youtube.com/watch?v=tShavGuo0_E",
+    "category": "business",
+    "description": "Learn how to build professional connections effectively.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m007",
+    "title": "Resume Building Tips",
+    "embed": "https://www.youtube.com/watch?v=3Q9rewnLFYw",
+    "category": "career",
+    "description": "Craft a standout resume to land your dream job.",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m008",
+    "title": "Interview Preparation",
+    "embed": "https://www.youtube.com/watch?v=HLnI0s_xPAE",
+    "category": "career",
+    "description": "Techniques to ace job interviews and internships.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m009",
+    "title": "Learning to Code",
+    "embed": "https://www.youtube.com/watch?v=R_kSsb5QFag",
+    "category": "technology",
+    "description": "Beginner-friendly guide to programming and coding skills.",
+    "userTypes": [
+      "student",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "m010",
+    "title": "Public Speaking Skills",
+    "embed": "https://www.youtube.com/watch?v=kJjAPCGd01M ",
+    "category": "personal development",
+    "description": "Improve your confidence and presentation skills.",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m011",
+    "title": "Entrepreneurship Basics",
+    "embed": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    "category": "business",
+    "description": "Discover the essential principles of starting and growing your own business. This audio guide covers everything from identifying market opportunities and building a business plan, to managing finances.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m012",
+    "title": "Turning Ideas into Reality",
+    "embed": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    "category": "Ideas",
+    "description": "This audio guide walks you through the foundational steps of launching your own business — from validating your ideas and understanding the market to crafting a business model and finding your first customers.",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m013",
+    "title": "Building Confidence for Career Growth",
+    "embed": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    "category": "personal development",
+    "description": "In this motivational session, explore how self-belief, clarity, and communication can shape your career path. Learn actionable tips to overcome doubt, build a personal brand, and position yourself for success.",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m014",
+    "title": "Mastering Time Management for Success",
+    "embed": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    "category": "productivity",
+    "description": "This insightful audio guide covers essential strategies to manage your time effectively, prioritize tasks, and reduce stress. Whether you’re juggling studies, work, or personal projects, this guide will help you stay on track and achieve your goals.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "m015",
+    "title": "Trends, Tech & Transformation",
+    "embed": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    "category": "design",
+    "description": "Dive into an insightful discussion on the rapidly evolving world of podcasting. From emerging technologies to creative storytelling formats and monetization strategies, this episode explores what lies ahead for creators, listeners, and the industry as a whole.",
+    "userTypes": [
+      "student",
+      "UG/PG"
+    ]
+  }
+]

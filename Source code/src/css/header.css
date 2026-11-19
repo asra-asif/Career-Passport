@@ -1,0 +1,73 @@
+.site-header {
+    background:rgb(158, 200, 185);;
+    /* reuse your theme variable */
+    color: var(--white);
+    flex-wrap: wrap;
+    /* allow items to wrap on small screens */
+}
+
+/* Logo + title */
+.logo {
+    font-weight: bold;
+    line-height: 44px;
+    font-size: 18px;
+    width: 60px;
+}
+
+/* Animated heading can shrink */
+.animated-heading {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--white);
+}
+
+/* Adjust small text */
+.site-header small {
+    font-size: 0.8rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        /* stack items */
+        text-align: center;
+        gap: 0.5rem;
+    }
+
+    .site-header .d-flex {
+        justify-content: center;
+    }
+
+    .animated-heading {
+        font-size: 1rem;
+        /* smaller heading on mobile */
+    }
+
+    #clock {
+        font-size: 0.9rem;
+    }
+
+    .logo {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+        line-height: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .animated-heading {
+        font-size: 0.9rem;
+    }
+
+    .site-header small {
+        display: block;
+        margin-top: -2px;
+    }
+
+    #clock,
+    .site-header div[style*="font-size: 12px"] {
+        font-size: 0.75rem;
+    }
+}

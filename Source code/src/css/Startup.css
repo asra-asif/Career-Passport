@@ -1,0 +1,119 @@
+/* Card styling */
+.startup-card {
+    max-width: 600px;
+    width: 100%;
+    min-height: 500px;
+    border-radius: 16px;
+    background: rgb(158, 200, 185);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+/* Headings */
+.startup-card h3 {
+    color: rgb(9, 38, 53);
+    font-weight: 700;
+}
+
+/* Input groups */
+.input-group-text {
+    background-color: rgb(27, 66, 66);
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+
+.input-group-text i {
+    color: white;
+    /* icons white for visibility */
+    font-size: 1.2rem;
+}
+
+.form-control {
+    padding: 12px 14px;
+    font-size: 1rem;
+    border-radius: 0 8px 8px 0;
+    border: 1px solid rgb(92, 131, 116);
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: rgb(27, 66, 66);
+    box-shadow: 0 0 6px rgba(27, 66, 66, 0.5);
+}
+
+/* Gap between input groups */
+.input-group {
+    margin-bottom: -0.1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.input-group .form-control {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.input-group .text-danger {
+    margin-top: 0.1rem;
+    font-size: 0.875rem;
+    color: #dc3545;
+    min-height: 1.2em;
+    /* Reserve space to prevent layout shift */
+}
+
+/* User Type Cards */
+.user-type-cards {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.user-type-card {
+    flex: 1;
+    background-color: rgb(27, 66, 66);
+    color: rgb(158, 200, 185);
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.user-type-card i {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(158, 200, 185);
+}
+
+.user-type-card span {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.user-type-card:hover {
+    background-color: rgb(92, 131, 116);
+    color: white;
+}
+
+.user-type-card.active {
+    background-color: rgb(9, 38, 53);
+    color: white;
+    transform: translateY(-4px);
+}
+
+/* Button */
+.btn-primary {
+    background-color: rgb(9, 38, 53);
+    border: none;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: rgb(27, 66, 66);
+    transform: translateY(-2px);
+}

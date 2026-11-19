@@ -1,0 +1,401 @@
+/* ===== Global Reset & Base ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);
+    color: #111827;
+    line-height: 1.6;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .quiz-container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  /* ===== Titles & Text ===== */
+  .quiz-title {
+    font-size: 2.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .quiz-subtitle {
+    text-align: center;
+    font-size: 1rem;
+    color: #6b7280;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* ===== User Type Toggle ===== */
+  .user-type-toggle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .toggle-btn {
+    padding: 0.6rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: #f3f4f6;
+    color: #111827;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .toggle-btn:hover {
+    background: #e5e7eb;
+  }
+  
+  .toggle-btn.active {
+    background: #2d8a5c;
+    color: #ffffff;
+  }
+  
+  /* ===== Progress Bar ===== */
+  .progress-bar {
+    width: 100%;
+    height: 12px;
+    background: linear-gradient(90deg, #d1e7dd, #a3cfbb);
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(45, 138, 92, 0.5);
+  }
+  
+  .progress {
+    height: 100%;
+    background: linear-gradient(90deg, #2d8a5c, #4caf70);
+    transition: width 0.4s ease;
+    border-radius: 12px;
+    box-shadow: 0 0 8px #4caf70;
+  }
+  
+  /* Improved form styling */
+  .question-card {
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(45, 138, 92, 0.15);
+  }
+  
+  .option-label {
+    padding: 1rem 1.25rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-color: #a3cfbb;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(45, 138, 92, 0.1);
+    border-radius: 12px;
+    background-color: #f9fdf7;
+  }
+  
+  .option-label:hover {
+    background: #d1e7dd;
+    border-color: #4caf70;
+    box-shadow: 0 4px 12px rgba(45, 138, 92, 0.25);
+    transform: scale(1.02);
+    cursor: pointer;
+  }
+  
+  .navigation .btn {
+    padding: 0.85rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 12px;
+  }
+  
+  /* ===== Question Card ===== */
+  .question-card,
+  .result-card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .question-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .question-card p {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* ===== Options ===== */
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  
+  .option-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .option-label:hover {
+    background: #f3f4f6;
+  }
+  
+  .option-label input {
+    accent-color: #2d8a5c;
+  }
+  
+  .option-label.selected {
+    border-color: #2d8a5c;
+    background-color: #e6f4ea;
+  }
+  
+  .option-label input[type="radio"] {
+    margin: 0;
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* ===== Careers in Results ===== */
+  .careers-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .career-card {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 0.875rem;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+    height: 100%;
+  }
+  
+  .career-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  }
+  
+  .career-card h3 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .career-card.detailed {
+    display: grid;
+    grid-template-columns: auto 1fr;
+      gap: 1rem;
+    align-items: start;
+  }
+  
+  .career-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .career-image {
+    width: 110px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+  }
+  
+  .career-desc {
+    color: #374151;
+    margin-bottom: 0.5rem;
+  }
+  
+  .career-meta {
+    display: grid;
+    gap: 0.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .meta-item {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+  
+  .meta-item .meta-label {
+    color: #6b7280;
+    font-weight: 600;
+  }
+  
+  .skills {
+    margin-top: 0.5rem;
+  }
+  
+  .skill-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    padding: 0.22rem 0.5rem;
+    border-radius: 6px;
+    background: #eef2f7;
+    border: 1px solid #dbe2ea;
+    color: #374151;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  /* ===== Buttons ===== */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.85rem 2rem;
+    border-radius: 12px;
+    border: none;
+    background: linear-gradient(135deg, #2d8a5c, #4caf70);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(45, 138, 92, 0.3);
+  }
+  
+  .btn:hover {
+    background: linear-gradient(135deg, #247650, #3a9a5f);
+    box-shadow: 0 6px 14px rgba(45, 138, 92, 0.5);
+    transform: translateY(-2px);
+  }
+  
+  .btn:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+  }
+  
+  /* Outline Variant */
+  .btn.outline {
+    background: transparent;
+    border: 1px solid #2d8a5c;
+    color: #2d8a5c;
+  }
+  
+  .btn.outline:hover {
+    background: #2d8a5c;
+    color: #ffffff;
+  }
+  
+  /* ===== Navigation ===== */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  /* ===== Results ===== */
+  .results {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  /* ===== Result Sections ===== */
+  .result-section {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 1rem 1.25rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  }
+  
+  .result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f3f4f6;
+    padding-bottom: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .result-header .left {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .result-header .tag {
+    display: inline-block;
+    background: #eaf6ef;
+    color: #2d8a5c;
+    border: 1px solid #bfe2cc;
+    font-size: 0.78rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 8px;
+  }
+  
+  .result-header .category {
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  
+  .result-header .compatibility {
+    color: #6b7280;
+    font-size: 0.9rem;
+  }
+  
+  .result-header .right {
+    display: flex;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+  
+  .result-header .points {
+    font-weight: 800;
+    font-size: 1.05rem;
+  }
+  
+  .careers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    gap: 1.25rem;
+  }
+  
+  .actions {
+    margin-top: 2.25rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .careers-grid {
+      grid-template-columns: 1fr;
+    }
+    .career-card.detailed {
+      grid-template-columns: 1fr;
+    }
+    .career-image {
+      width: 100%;
+      height: 140px;
+    }
+  }
+  

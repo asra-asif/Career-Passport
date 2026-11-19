@@ -1,0 +1,154 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    color: rgb(9, 38, 53);
+    background-color: #fff;
+}
+
+.contact-form {
+    width: 60%;
+    max-width: 600px;
+}
+
+.name-fields {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    flex: 1;
+}
+
+.form-group.full-width {
+    width: 100%;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    color: rgb(27, 66, 66);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgb(92, 131, 116);
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+    color: rgb(9, 38, 53);
+    background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: rgb(158, 200, 185);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+}
+
+.services-group {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    padding: 0;
+}
+
+.services-group legend {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: rgb(27, 66, 66);
+}
+
+.services-group label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(9, 38, 53);
+}
+
+.services-group input[type="checkbox"] {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.submit-button {
+    background-color: rgb(9, 38, 53);
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: rgb(27, 66, 66);
+}
+
+.contact-info {
+    width: 35%;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: rgb(9, 38, 53);
+}
+
+.contact-info h3 {
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: rgb(27, 66, 66);
+}
+
+.contact-info p {
+    margin: 0.3rem 0 1rem 0;
+    color: rgb(92, 131, 116);
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+.contact-info li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: rgb(9, 38, 53);
+    font-weight: 600;
+}
+
+.contact-link u {
+    text-decoration: underline;
+}
+
+.contact-link:hover {
+    text-decoration: none;
+    color: rgb(27, 66, 66);
+}

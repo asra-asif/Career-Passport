@@ -1,0 +1,120 @@
+:root {
+  --dark1: rgb(9, 38, 53);
+  --dark2: rgb(27, 66, 66);
+  --mid: rgb(92, 131, 116);
+  --light: rgb(158, 200, 185);
+  --white: #ffffff;
+}
+
+/* Overall Body */
+body {
+  background: var(--light);
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--dark1);
+}
+
+/* Container */
+.home-container {
+  min-height: 100vh;
+}
+
+/* ================= Hero Section ================= */
+.hero-section {
+  background: linear-gradient(rgba(9, 38, 53, 0.7),
+      rgba(27, 66, 66, 0.7)),
+    url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1350&q=80") center/cover no-repeat;
+  color: var(--white);
+  padding: 100px 20px;
+  border-radius: 0 0 12px 12px;
+  animation: fadeIn 1.2s ease-in-out;
+  margin-bottom: 30px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  animation: slideDown 1.2s ease;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin-top: 10px;
+  animation: fadeIn 2s ease;
+}
+
+/* Hero Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* ================= Sections ================= */
+.section-title {
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: var(--dark1);
+}
+
+/* ================= Quick Actions ================= */
+.btn-action {
+  background: var(--mid);
+  color: var(--white);
+  font-weight: 500;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-action:hover {
+  background: var(--dark2);
+  transform: translateY(-3px);
+}
+
+/* ================= Careers ================= */
+.career-card {
+  background: var(--white);
+  border: 1px solid var(--light);
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.career-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.badge-domain {
+  font-size: 0.7rem;
+  margin-left: 6px;
+  background: var(--mid) !important;
+}
+
+/* ================= Sidebar ================= */
+.list-group-item {
+  border: 1px solid var(--light);
+}
+
+.list-group-item strong {
+  color: var(--dark2);
+}

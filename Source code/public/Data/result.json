@@ -1,0 +1,144 @@
+[
+    {
+      "id": "software-engineer",
+      "title": "Software Engineer",
+      "description": "Design, develop, and maintain software applications and systems using various programming languages and frameworks.",
+      "industry": "Technology",
+      "skills": ["Programming", "Problem Solving", "System Design", "Testing", "Git", "Agile Development"],
+      "education": "Bachelor's in Computer Science or related field",
+      "salaryRange": "$70,000 - $150,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "data-scientist",
+      "title": "Data Scientist",
+      "description": "Analyze complex data to help organizations make informed decisions using statistical methods and machine learning.",
+      "industry": "Technology",
+      "skills": ["Statistics", "Machine Learning", "Python/R", "Data Visualization", "SQL", "Analytics"],
+      "education": "Bachelor's/Master's in Data Science, Statistics, or related field",
+      "salaryRange": "$80,000 - $160,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "registered-nurse",
+      "title": "Registered Nurse",
+      "description": "Provide patient care and support in healthcare settings, administering medications and monitoring patient health.",
+      "industry": "Healthcare",
+      "skills": ["Patient Care", "Medical Knowledge", "Communication", "Critical Thinking", "Empathy", "Time Management"],
+      "education": "Associate or Bachelor's degree in Nursing",
+      "salaryRange": "$60,000 - $90,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "marketing-manager",
+      "title": "Marketing Manager",
+      "description": "Develop and execute marketing strategies to promote products or services and increase brand awareness.",
+      "industry": "Business",
+      "skills": [
+        "Strategic Planning",
+        "Digital Marketing",
+        "Analytics",
+        "Communication",
+        "Creativity",
+        "Project Management"
+      ],
+      "education": "Bachelor's in Marketing, Business, or related field",
+      "salaryRange": "$65,000 - $120,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "financial-analyst",
+      "title": "Financial Analyst",
+      "description": "Evaluate financial data and trends to guide investment decisions and business strategy.",
+      "industry": "Finance",
+      "skills": ["Financial Modeling", "Excel", "Analysis", "Reporting", "Risk Assessment", "Communication"],
+      "education": "Bachelor's in Finance, Economics, or related field",
+      "salaryRange": "$55,000 - $100,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "graphic-designer",
+      "title": "Graphic Designer",
+      "description": "Create visual concepts to communicate ideas and inspire audiences through digital and print media.",
+      "industry": "Creative",
+      "skills": ["Design Software", "Creativity", "Typography", "Branding", "Color Theory", "Layout Design"],
+      "education": "Bachelor's in Graphic Design or related field",
+      "salaryRange": "$40,000 - $75,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "teacher",
+      "title": "Elementary School Teacher",
+      "description": "Educate and inspire young students in fundamental subjects while fostering their social and emotional development.",
+      "industry": "Education",
+      "skills": ["Teaching", "Patience", "Communication", "Classroom Management", "Curriculum Development", "Assessment"],
+      "education": "Bachelor's in Education or subject area plus teaching certification",
+      "salaryRange": "$45,000 - $70,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "mechanical-engineer",
+      "title": "Mechanical Engineer",
+      "description": "Design, develop, and test mechanical devices, engines, and machines for various industries.",
+      "industry": "Engineering",
+      "skills": ["CAD Software", "Problem Solving", "Mathematics", "Physics", "Project Management", "Technical Writing"],
+      "education": "Bachelor's in Mechanical Engineering",
+      "salaryRange": "$65,000 - $110,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "physical-therapist",
+      "title": "Physical Therapist",
+      "description": "Help patients recover from injuries and improve their physical mobility through therapeutic exercises and treatments.",
+      "industry": "Healthcare",
+      "skills": [
+        "Anatomy Knowledge",
+        "Patient Care",
+        "Manual Therapy",
+        "Exercise Prescription",
+        "Communication",
+        "Empathy"
+      ],
+      "education": "Doctor of Physical Therapy (DPT) degree",
+      "salaryRange": "$75,000 - $95,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "cybersecurity-analyst",
+      "title": "Cybersecurity Analyst",
+      "description": "Protect organizations from cyber threats by monitoring networks, investigating security breaches, and implementing security measures.",
+      "industry": "Technology",
+      "skills": [
+        "Network Security",
+        "Risk Assessment",
+        "Incident Response",
+        "Security Tools",
+        "Analytical Thinking",
+        "Attention to Detail"
+      ],
+      "education": "Bachelor's in Cybersecurity, Computer Science, or related field",
+      "salaryRange": "$70,000 - $130,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "chef",
+      "title": "Executive Chef",
+      "description": "Lead kitchen operations, create menus, and oversee food preparation in restaurants or hospitality establishments.",
+      "industry": "Hospitality",
+      "skills": ["Culinary Arts", "Leadership", "Menu Planning", "Food Safety", "Creativity", "Time Management"],
+      "education": "Culinary school or extensive kitchen experience",
+      "salaryRange": "$50,000 - $85,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    },
+    {
+      "id": "social-worker",
+      "title": "Social Worker",
+      "description": "Help individuals, families, and communities overcome challenges and improve their quality of life.",
+      "industry": "Social Services",
+      "skills": ["Counseling", "Case Management", "Empathy", "Communication", "Problem Solving", "Cultural Competency"],
+      "education": "Bachelor's or Master's in Social Work",
+      "salaryRange": "$45,000 - $70,000",
+      "image": "/placeholder.svg?height=200&width=300"
+    }
+  ]
+  

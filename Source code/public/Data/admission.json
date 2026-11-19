@@ -1,0 +1,88 @@
+{
+    "stream-selection": {
+      "title": "Stream Selection after 10th",
+      "description": [
+        "Choosing the right stream after 10th grade is a critical decision that can shape your future career path. This choice determines the subjects you'll study in higher secondary and the professional courses available to you later.",
+        "The main streams available are Science (with Medical or Non-Medical options), Commerce, and Arts/Humanities. Each stream opens up different career opportunities and requires specific aptitudes and interests."
+      ],
+      "tips": [
+        "Assess your interests, strengths, and weaknesses before making a decision",
+        "Research career options associated with each stream",
+        "Consider your long-term goals and aspirations",
+        "Talk to career counselors, teachers, and professionals in fields that interest you",
+        "Don't choose a stream just because your friends are choosing it or due to parental pressure"
+      ],
+      "image": "/images/tech/students3.jpg",
+      "caption": "Choose your academic path wisely after 10th grade",
+      "userTypes": [
+        "student"
+      ]
+    },
+    "study-abroad": {
+      "title": "Study Abroad Guidelines",
+      "description": [
+        "Studying abroad can be a life-changing experience that offers excellent educational opportunities, exposure to different cultures, and enhanced career prospects. However, the process requires careful planning and preparation.",
+        "From selecting the right country and university to securing visas and arranging accommodations, there are several steps to navigate. This guide will help you understand the process and prepare effectively for your international education journey."
+      ],
+      "tips": [
+        "Start planning at least 12-18 months in advance",
+        "Research universities, courses, and countries thoroughly",
+        "Prepare for required standardized tests (TOEFL, IELTS, GRE, GMAT, etc.)",
+        "Focus on building a strong application with good essays and recommendations",
+        "Understand the visa requirements and financial documentation needed",
+        "Learn about the culture and lifestyle of your destination country"
+      ],
+      "image": "/images/tech/studyabroad.jpg",
+      "caption": "Expand your horizons with international education",
+      "userTypes": [
+        "undergraduate",
+        "postgraduate",
+        "UG/PG"
+      ]
+    },
+    "interview-tips": {
+      "title": "Interview Tips for Graduates and Professionals",
+      "description": [
+        "Job interviews can be nerve-wracking, but proper preparation can significantly increase your confidence and performance. Whether you're a fresh UG/PG or an experienced professional, these tips will help you make a positive impression.",
+        "Interviews are not just about assessing your technical skills but also about evaluating your cultural fit, communication abilities, and problem-solving approach. Preparation should include researching the company, practicing common questions, and developing compelling stories about your experiences."
+      ],
+      "tips": [
+        "Research the company thoroughly - its products, services, culture, and recent news",
+        "Practice common interview questions and prepare STAR (Situation, Task, Action, Result) stories",
+        "Dress appropriately for the company culture and industry",
+        "Arrive early (or test technology for virtual interviews)",
+        "Prepare thoughtful questions to ask the interviewer",
+        "Follow up with a thank-you email after the interview"
+      ],
+      "image": "/images/tech/job.jpg",
+      "caption": "Prepare to ace your next job interview",
+      "userTypes": [
+        "UG/PG",
+        "professional"
+      ]
+    },
+    "resume-guidelines": {
+      "title": "Resume Guidelines for Graduates and Professionals",
+      "description": [
+        "Your resume is often the first impression you make on a potential employer. A well-crafted resume can open doors to interviews, while a poorly prepared one may end up in the rejection pile regardless of your qualifications.",
+        "An effective resume should be clear, concise, and tailored to the specific job you're applying for. It should highlight your most relevant skills, experiences, and achievements in a format that's easy to scan quickly."
+      ],
+      "tips": [
+        "Keep your resume to 1-2 pages maximum, focusing on relevant information",
+        "Use a clean, professional format with consistent formatting",
+        "Tailor your resume for each specific job application",
+        "Use action verbs and quantify achievements where possible",
+        "Include relevant keywords from the job description",
+        "Proofread meticulously to eliminate any errors",
+        "For recent graduates, emphasize education, projects, and relevant coursework",
+        "For experienced professionals, focus on achievements and impact in previous roles"
+      ],
+      "image": "/images/tech/graduation 4.jpg",
+      "caption": "Create a resume that stands out to employers",
+      "userTypes": [
+        "UG/PG",
+        "professional"
+      ]
+    }
+  }
+  
