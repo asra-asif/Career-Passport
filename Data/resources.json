@@ -1,0 +1,122 @@
+[
+  {
+    "id": "r001",
+    "title": "Resume Template",
+    "type": "Checklist",
+    "link": "https://braven.org/2021/06/how-to-write-a-strong-resume-with-examples/?gad_source=1&gad_campaignid=22703383633&gbraid=0AAAAABhuBjmRwd9P3sXXp8gg2KPhuujzP&gclid=Cj0KCQjwrJTGBhCbARIsANFBfgsUIUEiGaTmmB4mgAsL_G3qKqgNKW5ztY4HlJM8lo-owL9MB0G5UTgaAvUiEALw_wcB",
+    "desc": "Simple resume format for graduates.",
+    "userTypes": ["professional"]
+  },
+  {
+    "id": "r002",
+    "title": "Study Abroad Guide",
+    "type": "Guide",
+    "link": "https://www.topuniversities.com/where-to-study/home",
+    "desc": "Overview of application steps and necessary documents.",
+    "userTypes": ["professional"]
+  },
+  {
+    "id": "r003",
+    "title": "Portfolio Tips",
+    "type": "Guide",
+    "link": "https://admissions.ocadu.ca/apply/preparing-portfolio/portfolio-tips",
+    "desc": "Best practices for creating an impressive portfolio.",
+    "userTypes": ["student", "UG/PG"]
+  },
+  {
+    "id": "r004",
+    "title": "Interview Preparation",
+    "type": "Checklist",
+    "link": "https://hbr.org/2021/11/10-common-job-interview-questions-and-how-to-answer-them",
+    "desc": "Step-by-step guide to prepare for interviews.",
+    "userTypes": ["student", "professional"]
+  },
+  {
+    "id": "r005",
+    "title": "Scholarship Opportunities",
+    "type": "Guide",
+    "link": "https://www.hec.gov.pk/english/scholarshipsgrants/pages/default.aspx",
+    "desc": "List of scholarships for various courses and countries.",
+    "userTypes": ["student", "UG/PG"]
+  },
+  {
+    "id": "r006",
+    "title": "Career Roadmap",
+    "type": "Guide",
+    "link": "https://uk.indeed.com/career-advice/career-development/career-roadmap",
+    "desc": "Detailed roadmap for different career paths.",
+    "userTypes": ["student", "UG/PG"]
+  },
+  {
+    "id": "r007",
+    "title": "Time Management Tips",
+    "type": "Checklist",
+    "link": "https://asana.com/resources/time-management-tips",
+    "desc": "Effective strategies to manage time efficiently.",
+    "userTypes": ["student", "UG/PG"]
+  },
+  {
+    "id": "r008",
+    "title": "Freelancing Guide",
+    "type": "Guide",
+    "link": "https://dev.to/llxd/beginners-guide-to-freelancing-3m5i",
+    "desc": "Step-by-step guide to start freelancing as a career.",
+    "userTypes": ["professional"]
+  },
+  {
+    "id": "r009",
+    "title": "Job Search Toolkit",
+    "type": "Checklist",
+    "link": "https://hls.harvard.edu/bernard-koteen-office-of-public-interest-advising/opia-job-search-toolkit/",
+    "desc": "Essential tools and tips for effective job search.",
+    "userTypes": ["professional"]
+  },
+  {
+    "id": "r010",
+    "title": "Online Learning Resources",
+    "type": "Guide",
+    "link": "https://www.hec.gov.pk/english/NAHE/Pages/Online-Resources.aspx",
+    "desc": "Curated list of online platforms and courses.",
+    "userTypes": ["student", "UG/PG"]
+  },
+  {
+    "id": "r011",
+    "title": "Soft Skills Training",
+    "type": "Checklist",
+    "link": "https://www.coursera.org/courses?query=soft%20skills",
+    "desc": "Checklist to improve communication, leadership and teamwork.",
+    "userTypes": ["student", "UG/PG", "professional"]
+  },
+  {
+    "id": "r012",
+    "title": "Networking Guide",
+    "type": "Guide",
+    "link": "https://hbr.org/2023/03/a-beginners-guide-to-networking",
+    "desc": "How to build a strong professional network.",
+    "userTypes": ["professional"]
+  },
+  {
+    "id": "r013",
+    "title": "Certifications to Boost Career",
+    "type": "Checklist",
+    "link": "https://www.managementconcepts.com/resource/why-choosing-the-right-certifications-can-define-and-accelerate-your-career/",
+    "desc": "List of valuable certifications by industry.",
+    "userTypes": ["professional"]
+  },
+  {
+    "id": "r014",
+    "title": "Internship Finder",
+    "type": "Guide",
+    "link": "https://www.internshipfinder.com/",
+    "desc": "How to find and apply for internships.",
+    "userTypes": ["student", "UG/PG"]
+  },
+  {
+    "id": "r015",
+    "title": "Personal Branding Tips",
+    "type": "Guide",
+    "link": "https://hbr.org/2023/05/a-new-approach-to-building-your-personal-brand",
+    "desc": "Tips to create a strong personal brand online.",
+    "userTypes": ["student", "UG/PG", "professional"]
+  }
+]

@@ -1,0 +1,337 @@
+[
+  {
+    "id": "s009",
+    "name": "Usman Tariq",
+    "domain": "engineering",
+    "photo": "/images/usman.png",
+    "story": "Usman, a mechanical engineering innovator, developed a low-cost water pump that improved irrigation efficiency and reduced costs for farmers in rural areas.",
+    "userTypes": [
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "s010",
+    "name": "Hira Sohail",
+    "domain": "engineering",
+    "photo": "/images/hira.png",
+    "story": "Hira, an expert in robotics and AI, led her university team to success in regional competitions with her skills in designing autonomous robots.",
+    "userTypes": [
+      "student",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "s011",
+    "name": "Talha Nazir",
+    "domain": "engineering",
+    "photo": "/images/talha.png",       
+    "story": "Talha developed eco-friendly construction materials during his PhD in environmental engineering.",
+    "userTypes": [
+      "professional"
+    ]
+  },
+  {
+    "id": "s012",
+    "name": "Nida Irfan",
+    "domain": "engineering",
+    "photo": "/images/nida.png",
+    "story": "Nida works as a transportation engineer focusing on sustainable urban mobility in Karachi.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "s013",
+    "name": "Dr. Zainab Mir",
+    "domain": "medicine",
+    "photo": "/images/zainab.png",
+    "story": "Dr. Zainab helped introduce mobile health units in remote villages of Balochistan.",
+    "userTypes": [
+      "professional"
+    ]
+  },
+  {
+    "id": "s014",
+    "name": "Adeel Khan",
+    "domain": "medicine",
+    "photo": "/images/adeel2.png",
+    "story": "Adeel is a final-year medical student creating an app for rural health tracking.",
+    "userTypes": [
+      "student"
+    ]
+  },
+  {
+    "id": "s015",
+    "name": "Dr. Mahnoor Raza",
+    "domain": "medicine",
+    "photo": "/images/mahnoor.png",
+    "story": "Mahnoor specializes in pediatric care and volunteers at children’s hospitals.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "s016",
+    "name": "Sameer Qureshi",
+    "domain": "medicine",
+    "photo": "/images/sameer.png",
+    "story": "Sameer leads a telemedicine startup connecting doctors to rural patients.",
+    "userTypes": [
+      "ugpg",
+      "professional"
+    ]
+  },
+  {
+    "id": "s017",
+    "name": "Amina Haider",
+    "domain": "arts",
+    "photo": "/images/amina.png",
+    "story": "Amina is a digital illustrator whose work has been featured in international exhibitions.",
+    "userTypes": [
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "s018",
+    "name": "Jibran Aslam",
+    "domain": "arts",
+    "photo": "/images/jibran.png",
+    "story": "Jibran started a mural art program in underprivileged schools.",
+    "userTypes": [
+      "student",
+      "professional"
+    ]
+  },
+  {
+    "id": "s019",
+    "name": "Nashit Ali",
+    "domain": "arts",
+    "photo": "/images/nashit.png",
+    "story": "Nashit transitioned from engineering to filmmaking and won a national short film award.",
+    "userTypes": [
+      "ugpg"
+    ]
+  },
+  {
+    "id": "s020",
+    "name": "Sana Khalid",
+    "domain": "arts",
+    "photo": "/images/sana.png",
+    "story": "Sana's textile design startup revives traditional Pakistani patterns for modern fashion.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "s021",
+    "name": "Hassan Rehman",
+    "domain": "computer-science",
+    "photo": "/images/hassan.png",
+    "story": "Hassan built an award-winning AI-powered Urdu handwriting recognition tool.",
+    "userTypes": [
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "s022",
+    "name": "Iqra Abbas",
+    "domain": "computer-science",
+    "photo": "/images/iqra.png",
+    "story": "Iqra is a full-stack developer advocating for women in tech through free coding bootcamps.",
+    "userTypes": [
+      "professional"
+    ]
+  },
+  {
+    "id": "s023",
+    "name": "Saad Murtaza",
+    "domain": "computer-science",
+    "photo": "/images/saad.png",
+    "story": "Saad contributed to open-source projects while in university and landed a Google internship.",
+    "userTypes": [
+      "student"
+    ]
+  },
+  {
+    "id": "s024",
+    "name": "Farah Zahra",
+    "domain": "computer-science",
+    "photo": "/images/farah.png",
+    "story": "Farah co-founded a startup offering blockchain-powered document verification.",
+    "userTypes": [
+      "ugpg",
+      "professional"
+    ]
+  },
+  {
+    "id": "s025",
+    "name": "Adeel Farooq",
+    "domain": "education",
+    "photo": "/images/adeel2.png",
+    "story": "Adeel digitized the curriculum of a community school, increasing student engagement.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "s026",
+    "name": "Sadia Hashmi",
+    "domain": "education",
+    "photo": "/images/sadia.png",
+    "story": "Sadia develops inclusive education content for visually impaired students.",
+    "userTypes": [
+      "ugpg"
+    ]
+  },
+  {
+    "id": "s027",
+    "name": "Ali Murtaza",
+    "domain": "education",
+    "photo": "/images/alim.png",
+    "story": "Ali trains young teachers in conflict zones to use trauma-informed teaching practices.",
+    "userTypes": [
+      "professional"
+    ]
+  },
+  {
+    "id": "s028",
+    "name": "Zara Younas",
+    "domain": "education",
+    "photo": "/images/zara.png",
+    "story": "Zara founded an after-school program in Tharparkar to support girls' education.",
+    "userTypes": [
+      "student",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "s029",
+    "name": "Taimoor Shah",
+    "domain": "business",
+    "photo": "/images/taimoor.png",
+    "story": "Taimoor expanded his online clothing brand across South Asia during the pandemic.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "s030",
+    "name": "Zunaira Javed",
+    "domain": "business",
+    "photo": "/images/zunaira.png",
+    "story": "Zunaira co-founded a food delivery app tailored to small towns.",
+    "userTypes": [
+      "ugpg"
+    ]
+  },
+  {
+    "id": "s031",
+    "name": "Noman Bhatti",
+    "domain": "business",
+    "photo": "/images/noman.png",
+    "story": "Noman scaled a social enterprise focused on youth employment through freelancing.",
+    "userTypes": [
+      "professional"
+    ]
+  },
+  {
+    "id": "s032",
+    "name": "Rabia Siddiq",
+    "domain": "business",
+    "photo": "/images/rabia.png",
+    "story": "Rabia helps women entrepreneurs in rural Punjab access microloans and digital tools.",
+    "userTypes": [
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "s033",
+    "name": "Mohsin Raza",
+    "domain": "law",
+    "photo": "/images/mohsin.png",
+    "story": "Mohsin works with NGOs to draft legal reforms on child labor laws.",
+    "userTypes": [
+      "professional"
+    ]
+  },
+  {
+    "id": "s034",
+    "name": "Huma Irfan",
+    "domain": "law",
+    "photo": "/images/huma.png",
+    "story": "Huma is a recent law UG/PG working on climate justice litigation.",
+    "userTypes": [
+      "ugpg",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "s035",
+    "name": "Kashif Jamal",
+    "domain": "law",
+    "photo": "/images/kashif.png",
+    "story": "Kashif built a digital platform that offers free legal advice in Urdu.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "s036",
+    "name": "Nazia Qureshi",
+    "domain": "law",
+    "photo": "/images/nazia.png",
+    "story": "Nazia advocates for prisoners' rights and leads reformation workshops in jails.",
+    "userTypes": [
+      "professional"
+    ]
+  },
+  {
+    "id": "s037",
+    "name": "Haris Manzoor",
+    "domain": "sports",
+    "photo": "/images/haris.png",
+    "story": "Haris went from street football to captaining Pakistan’s national futsal team.",
+    "userTypes": [
+      "student",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "s038",
+    "name": "Maliha Tanveer",
+    "domain": "sports",
+    "photo": "/images/maliha.png",
+    "story": "Maliha overcame barriers to become Pakistan’s first female weightlifting coach.",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "s039",
+    "name": "Shahbaz Khan",
+    "domain": "sports",
+    "photo": "/images/shahbaz.png",
+    "story": "Shahbaz developed a mobile app to track youth athletic performance in schools.",
+    "userTypes": [
+      "student"
+    ]
+  },
+  {
+    "id": "s040",
+    "name": "Fariha Abbas",
+    "domain": "sports",
+    "photo": "/images/fariha.png",
+    "story": "Fariha trains underprivileged girls in martial arts to build confidence and safety.",
+    "userTypes": [
+      "ugpg",
+      "professional"
+    ]
+  }
+]

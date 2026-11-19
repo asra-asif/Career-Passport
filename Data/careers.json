@@ -1,0 +1,298 @@
+[
+  {
+    "id": "c001",
+    "title": "Software Engineer",
+    "description": "Design and build software applications and systems.",
+    "skills": [
+      "Programming",
+      "Problem Solving",
+      "Algorithms"
+    ],
+    "education": "BSc Computer Science / Equivalent",
+    "industry": "Technology",
+    "salary_min": 30000,
+    "salary_max": 120000,
+    "icon": "💻",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c002",
+    "title": "Civil Engineer",
+    "description": "Plan, design and supervise construction projects.",
+    "skills": [
+      "Math",
+      "CAD",
+      "Project Management"
+    ],
+    "education": "BEng Civil",
+    "industry": "Engineering",
+    "salary_min": 20000,
+    "salary_max": 90000,
+    "icon": "🏗️",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c003",
+    "title": "Graphic Designer",
+    "description": "Create visual content for print and digital media.",
+    "skills": [
+      "Design",
+      "Photoshop",
+      "Creativity"
+    ],
+    "education": "Diploma / BA in Design",
+    "industry": "Arts",
+    "salary_min": 15000,
+    "salary_max": 60000,
+    "icon": "🎨",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "c004",
+    "title": "Data Analyst",
+    "description": "Analyze business data to provide insights.",
+    "skills": [
+      "SQL",
+      "Excel",
+      "Python"
+    ],
+    "education": "Bachelor's / Master's",
+    "industry": "Analytics",
+    "salary_min": 40000,
+    "salary_max": 90000,
+    "icon": "📊",
+    "userTypes": [
+      "UG/PG",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c005",
+    "title": "Marketing Specialist",
+    "description": "Plan and execute marketing campaigns.",
+    "skills": [
+      "Communication",
+      "Creativity",
+      "Data Analysis"
+    ],
+    "education": "Bachelor's / Master's",
+    "industry": "Business",
+    "salary_min": 35000,
+    "salary_max": 80000,
+    "icon": "📢",
+    "userTypes": [
+      "UG/PG",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c006",
+    "title": "UX/UI Designer",
+    "description": "Design intuitive and user-friendly interfaces.",
+    "skills": [
+      "Sketch",
+      "Figma",
+      "Creativity"
+    ],
+    "education": "Diploma / Bachelor's",
+    "industry": "Technology / Design",
+    "salary_min": 30000,
+    "salary_max": 70000,
+    "icon": "🎨",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "c007",
+    "title": "Mechanical Engineer",
+    "description": "Design and test mechanical devices and systems.",
+    "skills": [
+      "CAD",
+      "Problem Solving",
+      "Mathematics"
+    ],
+    "education": "BEng Mechanical",
+    "industry": "Engineering",
+    "salary_min": 40000,
+    "salary_max": 95000,
+    "icon": "⚙️",
+    "userTypes": [
+      "UG/PG",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c008",
+    "title": "Content Writer",
+    "description": "Create written content for websites, blogs, and marketing.",
+    "skills": [
+      "Writing",
+      "Research",
+      "Creativity"
+    ],
+    "education": "High School Diploma / BA",
+    "industry": "Media",
+    "salary_min": 15000,
+    "salary_max": 45000,
+    "icon": "✍️",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "c009",
+    "title": "Cybersecurity Specialist",
+    "description": "Protect systems and networks from cyber threats.",
+    "skills": [
+      "Network Security",
+      "Ethical Hacking",
+      "Risk Assessment"
+    ],
+    "education": "Bachelor's / Master's",
+    "industry": "Technology",
+    "salary_min": 50000,
+    "salary_max": 110000,
+    "icon": "🛡️",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c010",
+    "title": "Digital Marketing Manager",
+    "description": "Manage online marketing campaigns and SEO strategies.",
+    "skills": [
+      "SEO",
+      "Social Media",
+      "Analytics"
+    ],
+    "education": "Bachelor's / Master's",
+    "industry": "Business / Marketing",
+    "salary_min": 45000,
+    "salary_max": 95000,
+    "icon": "📈",
+    "userTypes": [
+      "UG/PG",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c011",
+    "title": "AI/ML Engineer",
+    "description": "Develop AI models and machine learning solutions.",
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "Data Modeling"
+    ],
+    "education": "BSc / MSc Computer Science",
+    "industry": "Technology",
+    "salary_min": 60000,
+    "salary_max": 130000,
+    "icon": "🤖",
+    "userTypes": [
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c012",
+    "title": "Project Manager",
+    "description": "Lead projects from planning to execution.",
+    "skills": [
+      "Leadership",
+      "Planning",
+      "Communication"
+    ],
+    "education": "Bachelor's / Master's",
+    "industry": "Business / Engineering",
+    "salary_min": 50000,
+    "salary_max": 120000,
+    "icon": "📋",
+    "userTypes": [
+      "UG/PG",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c013",
+    "title": "Teacher / Educator",
+    "description": "Teach and mentor students in schools or colleges.",
+    "skills": [
+      "Communication",
+      "Patience",
+      "Subject Knowledge"
+    ],
+    "education": "Bachelor's / Master's / Teaching Diploma",
+    "industry": "Education",
+    "salary_min": 20000,
+    "salary_max": 60000,
+    "icon": "📚",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "UG/PG"
+    ]
+  },
+  {
+    "id": "c014",
+    "title": "Financial Analyst",
+    "description": "Analyze financial data to guide business decisions.",
+    "skills": [
+      "Excel",
+      "Financial Modeling",
+      "Analytics"
+    ],
+    "education": "Bachelor's / Master's in Finance",
+    "industry": "Finance",
+    "salary_min": 40000,
+    "salary_max": 100000,
+    "icon": "💹",
+    "userTypes": [
+      "UG/PG",
+      "UG/PG",
+      "professional"
+    ]
+  },
+  {
+    "id": "c015",
+    "title": "Social Media Manager",
+    "description": "Manage social media platforms and content strategy.",
+    "skills": [
+      "Content Creation",
+      "Marketing",
+      "Analytics"
+    ],
+    "education": "Bachelor's / Diploma",
+    "industry": "Media / Marketing",
+    "salary_min": 30000,
+    "salary_max": 70000,
+    "icon": "📱",
+    "userTypes": [
+      "student",
+      "UG/PG",
+      "UG/PG"
+    ]
+  }
+]

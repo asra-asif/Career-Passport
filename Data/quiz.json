@@ -1,0 +1,220 @@
+{
+  "questions": [
+    {
+      "id": "work_environment",
+      "question": "What type of work environment do you prefer?",
+      "userTypes": ["student", "ugpg", "professional"],
+      "options": [
+        {
+          "text": "A quiet office where I can focus on detailed work",
+          "categories": ["Technology", "Business"],
+          "weight": 3
+        },
+        {
+          "text": "A dynamic environment with lots of people interaction",
+          "categories": ["Healthcare", "Education", "Social Services"],
+          "weight": 3
+        },
+        {
+          "text": "A creative studio or workshop space",
+          "categories": ["Creative", "Engineering"],
+          "weight": 3
+        },
+        {
+          "text": "Outdoors or in varied locations",
+          "categories": ["Engineering", "Social Services"],
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "problem_solving",
+      "question": "How do you prefer to solve problems?",
+      "userTypes": ["student", "ugpg", "professional"],
+      "options": [
+        {
+          "text": "Using logical analysis and data",
+          "categories": ["Technology", "Business", "Engineering"],
+          "weight": 3
+        },
+        {
+          "text": "Through collaboration and discussion",
+          "categories": ["Education", "Social Services", "Healthcare"],
+          "weight": 3
+        },
+        {
+          "text": "With creative and innovative approaches",
+          "categories": ["Creative", "Technology"],
+          "weight": 3
+        },
+        {
+          "text": "By following established procedures",
+          "categories": ["Healthcare", "Business"],
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "work_motivation",
+      "question": "What motivates you most in your work?",
+      "userTypes": ["student", "ugpg", "professional"],
+      "options": [
+        {
+          "text": "Helping others and making a positive impact",
+          "categories": ["Healthcare", "Education", "Social Services"],
+          "weight": 4
+        },
+        {
+          "text": "Creating something new and innovative",
+          "categories": ["Technology", "Creative", "Engineering"],
+          "weight": 4
+        },
+        {
+          "text": "Achieving financial success and recognition",
+          "categories": ["Business", "Technology"],
+          "weight": 3
+        },
+        {
+          "text": "Having job security and stability",
+          "categories": ["Education", "Healthcare", "Business"],
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "skills_preference",
+      "question": "Which skills do you most enjoy using?",
+      "userTypes": ["student", "ugpg", "professional"],
+      "options": [
+        {
+          "text": "Technical and analytical skills",
+          "categories": ["Technology", "Engineering", "Business"],
+          "weight": 4
+        },
+        {
+          "text": "Communication and interpersonal skills",
+          "categories": ["Education", "Social Services", "Healthcare", "Business"],
+          "weight": 4
+        },
+        {
+          "text": "Creative and artistic skills",
+          "categories": ["Creative", "Hospitality"],
+          "weight": 4
+        },
+        {
+          "text": "Physical and hands-on skills",
+          "categories": ["Healthcare", "Engineering", "Hospitality"],
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "id": "work_pace",
+      "question": "What work pace suits you best?",
+      "userTypes": ["student", "ugpg", "professional"],
+      "options": [
+        {
+          "text": "Fast-paced with tight deadlines",
+          "categories": ["Technology", "Business", "Hospitality"],
+          "weight": 3
+        },
+        {
+          "text": "Steady and consistent workflow",
+          "categories": ["Education", "Healthcare", "Engineering"],
+          "weight": 3
+        },
+        {
+          "text": "Flexible with periods of intense focus",
+          "categories": ["Creative", "Technology"],
+          "weight": 3
+        },
+        {
+          "text": "Varied depending on the situation",
+          "categories": ["Social Services", "Healthcare"],
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "id": "learning_style",
+      "question": "How do you prefer to learn new things?",
+      "userTypes": ["student", "ugpg", "professional"],
+      "options": [
+        {
+          "text": "Through hands-on experience and practice",
+          "categories": ["Engineering", "Healthcare", "Hospitality"],
+          "weight": 3
+        },
+        {
+          "text": "By reading and researching independently",
+          "categories": ["Technology", "Business", "Education"],
+          "weight": 3
+        },
+        {
+          "text": "Through mentorship and guidance from others",
+          "categories": ["Healthcare", "Education", "Social Services"],
+          "weight": 3
+        },
+        {
+          "text": "By experimenting and trying new approaches",
+          "categories": ["Creative", "Technology", "Engineering"],
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "id": "impact_preference",
+      "question": "What kind of impact do you want to make?",
+      "userTypes": ["student", "ugpg", "professional"],
+      "options": [
+        {
+          "text": "Improve people's health and wellbeing",
+          "categories": ["Healthcare", "Social Services"],
+          "weight": 4
+        },
+        {
+          "text": "Advance technology and innovation",
+          "categories": ["Technology", "Engineering"],
+          "weight": 4
+        },
+        {
+          "text": "Educate and inspire others",
+          "categories": ["Education", "Creative"],
+          "weight": 4
+        },
+        {
+          "text": "Drive business growth and success",
+          "categories": ["Business", "Technology"],
+          "weight": 3
+        }
+      ]
+    },
+    {
+      "id": "work_structure",
+      "question": "How much structure do you prefer in your work?",
+      "userTypes": ["student", "ugpg", "professional"],
+      "options": [
+        {
+          "text": "Highly structured with clear procedures",
+          "categories": ["Healthcare", "Education", "Business"],
+          "weight": 3
+        },
+        {
+          "text": "Some structure but with flexibility",
+          "categories": ["Technology", "Engineering", "Social Services"],
+          "weight": 3
+        },
+        {
+          "text": "Minimal structure with creative freedom",
+          "categories": ["Creative", "Technology"],
+          "weight": 3
+        },
+        {
+          "text": "Structure that varies by project",
+          "categories": ["Business", "Engineering"],
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}
